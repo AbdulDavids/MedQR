@@ -1,0 +1,119 @@
+body {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-control {
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #ff0000;
+    border-color: #555;
+    box-shadow: inset;
+
+  }
+  
+  .btn-primary:hover {
+    background-color: #555;
+    border-color: #ff0000;
+    color: #ff0000;
+  }
+
+  .btn-secondary {
+    background-color: #002d82;
+    border-color: #555;
+    box-shadow: inset;
+
+  }
+  
+  .btn-secondary:hover {
+    background-color: #555;
+    border-color: #002d82;
+    color: #002d82;
+  }
+  
+
+
+  .footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #fff;
+  }
+  
+  
+  #qrcode-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .instructions-container {
+    background-color: #555;
+    border: 1px solid #ddd;
+    padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  }
+  
+  .instructions-container h2 {
+    text-align: center;
+  }
+
+  .instructions-container h4 {
+    text-align: center;
+    font-weight:lighter
+  }
+
+  .instructions-container h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #qrcode {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .createNewButton {
+    background-color: #555;
+    border: 1px solid #ddd;
+    padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  
+  }
+
+  a.Create{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
