@@ -58,7 +58,7 @@ if (!age){
   // Create user String with the input values
   var userInfo = name + ", " + age + ", " + bloodType + ", " + allergies + ", " + medConditions + ", " + emergencyContact1;
 
-  var patientInfoURL = "https://abduldavids.github.io/patientinfo.html?n=" + name + "&a=" + age + "&bl=" + bloodType + "&all=" + allergies + "&cd=" + medConditions + "&ct=" + emergencyContact1
+  var patientInfoURL = "https://resqr.pages.dev/patientinfo.html?n=" + name + "&a=" + age + "&bl=" + bloodType + "&all=" + allergies + "&cd=" + medConditions + "&ct=" + emergencyContact1
 
 
   console.log(patientInfoURL);
@@ -91,5 +91,4 @@ function prepare(){
   x.style.display = "none";
 }
 window.onload = prepare;
-
 
